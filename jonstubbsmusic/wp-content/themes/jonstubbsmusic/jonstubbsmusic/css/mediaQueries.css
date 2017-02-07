@@ -1,0 +1,195 @@
+/*********************************************/
+/*------------- Media Queries ---------------*/
+/*********************************************/
+
+@media only screen and (min-width: 50em) {
+	header {
+		/*height: 250px;*/
+		height: 15.73em;
+	}
+	#header-box h1 {
+		font-size: 6em;
+		/*font-size: 7em;*/
+	}
+	#contentWrap {
+		-ms-flex-flow: row wrap;
+		    -webkit-box-orient: horizontal;
+		    -webkit-box-direction: normal;
+		        flex-flow: row wrap;
+		-webkit-box-align: start;
+		    -ms-flex-align: start;
+		        align-items: flex-start;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+	}
+	/*#contentWrap > * {
+		margin-top: !important none;
+	}*/
+	main {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 1 58%;
+		        flex: 0 1 58%;
+		-webkit-box-ordinal-group: 3;
+		    -ms-flex-order: 2;
+		        order: 2;
+		z-index: 10;
+	}
+	main.blog-posts {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 1 58%;
+		        flex: 0 1 58%;
+		-webkit-box-ordinal-group: 3;
+		    -ms-flex-order: 2;
+		        order: 2;
+		z-index: 10;
+	}
+	main.blog-post {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 1 65%;
+		        flex: 0 1 65%;
+		-webkit-box-ordinal-group: 3;
+		    -ms-flex-order: 2;
+		        order: 2;
+		/*max-width: 50em;*/
+		z-index: 10;
+	}
+	.sidebar {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 1 25%;
+		        flex: 0 1 25%;
+		-webkit-box-ordinal-group: 2;
+		    -ms-flex-order: 1;
+		        order: 1;
+	}
+	nav#menuMain {
+		margin: -38% 0 0 -10%;
+		-webkit-transform: rotate(-3deg);
+		        transform: rotate(-3deg);
+	}
+	nav#menuBlog {
+		margin: 5% -10% 0 10%;
+		-webkit-transform: rotate(6deg);
+				transform: rotate(6deg);
+	}
+#menuBlog a {
+	margin-left: 0;
+}
+	/*ul#menu-blog-menu.menu {
+		transform: rotate(6deg);
+	}*/
+	#illustration {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 1 60%;
+		        flex: 0 1 60%;
+		margin: 1.5em auto;
+		-webkit-box-ordinal-group: 4;
+		    -ms-flex-order: 3;
+		        order: 3;
+	}
+	#illustration-blog {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 1 60%;
+		        flex: 0 1 60%;
+		margin: 1.5em auto;
+		-webkit-box-ordinal-group: 4;
+		    -ms-flex-order: 3;
+		        order: 3;
+	}
+	#illustration img {
+		-webkit-transform: rotate(7deg);
+		        transform: rotate(7deg)
+	}
+	footer {
+		position: relative;
+		background-color: rgba(0, 0, 0, 0);
+		height: 125px;
+		clear: both;
+	}
+	#footer-inner-box {
+		/*width: 100px;
+		height: 100px;
+		outline: 1px dashed red;*/
+	}
+	div#footer-box {
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		bottom: 0;
+		left: 10%;
+		background-color: rgba(107, 59, 3, 0.8);
+		text-align: center;
+		/*outline: 1px dashed red;*/
+	}
+	#footer-box p {
+		line-height: 1.25em;
+		padding: 0.25em;
+	}
+}
+@media only screen and (min-width: 70em) {
+	#header-box h1 {
+		font-size: 7em;
+	}
+	main {
+		/*margin-left: -3%;*/
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 1 40%;
+		        flex: 0 1 40%;
+		-webkit-box-ordinal-group: 3;
+		    -ms-flex-order: 2;
+		        order: 2;
+		margin-top: 20em;
+		}
+	main.blog-posts {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 1 40%;
+		        flex: 0 1 40%;
+		-webkit-box-ordinal-group: 3;
+		    -ms-flex-order: 2;
+		        order: 2;
+		margin-top: 20em;
+	}
+	/*main.blog-post {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 1 68%;
+		        flex: 0 1 68%;
+		-webkit-box-ordinal-group: 3;
+		    -ms-flex-order: 2;
+		        order: 2;
+		/*max-width: 50em;
+		margin-top: 20em;
+		z-index: 10;
+	}*/
+	/*.sidebar {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 1 30%;
+		        flex: 0 1 30%;
+		-webkit-box-ordinal-group: 2;
+		    -ms-flex-order: 1;
+		        order: 1;
+	}*/
+	.sidebar {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 1 18%;
+		        flex: 0 1 18%;
+		-webkit-box-ordinal-group: 2;
+		    -ms-flex-order: 1;
+		        order: 1;
+	}
+	#illustration {
+		margin: -3% 5% 0 -15%;
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 1 30%;
+		        flex: 0 1 30%;
+		-webkit-box-ordinal-group: 4;
+		    -ms-flex-order: 3;
+		        order: 3;
+		min-width: 25em;
+	}
+	footer {
+		/*background-color: rgba(0, 0, 0, 0);*/
+	}
+}
+/*********************************************/
+/*------------- End Media Queries -----------*/
+/*********************************************/
