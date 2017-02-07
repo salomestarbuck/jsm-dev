@@ -1,2 +1,2 @@
 # jsm-dev
-Jon
+The dev site for jonstubbsmusic.com
