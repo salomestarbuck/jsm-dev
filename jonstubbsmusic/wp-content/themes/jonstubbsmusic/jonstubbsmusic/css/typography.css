@@ -1,0 +1,98 @@
+/**********************************************/
+/*--------------- Typography -----------------*/
+/**********************************************/
+@font-face {
+    font-family: 'special_eliteregular';
+    src: url('../fonts/SpecialElite-webfont.eot');
+    src: url('../fonts/SpecialElite-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SpecialElite-webfont.woff') format('woff'),
+         url('../fonts/SpecialElite-webfont.ttf') format('truetype'),
+         url('../fonts/SpecialElite-webfont.svg#special_eliteregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	font-family: 'special_eliteregular';
+	color: #000;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Cabin Sketch', cursive;
+	margin: 25px 0 40px 0;
+	font-weight: normal;
+	color: #000;
+	line-height: 1.25em;
+}
+h1 {
+	font-size: 2.5em;
+}
+h2 {
+	font-size: 2.25em;
+}
+h3 {
+	font-size: 2em;
+}
+h4 {
+	font-size: 1.75em;
+}
+h5 {
+	font-size: 1.5em;
+}
+h6 {
+	font-size: 1.25em;
+}
+p, blockquote {
+	font-weight: normal;
+	font-size: 1em;
+	margin: 0 0 25px 0;
+	line-height: 1.15em;
+	color: #000;
+}
+ol li {
+	list-style-type: square;
+}
+ul {
+	line-height: 1.5em;
+}
+/*main h2 a {
+	color: #000;
+}*/
+/************* Anchor Link Typography ************/
+div#header-box h1 a {
+	color: #FA9D0C;	
+}
+nav a {
+	font-family: 'Cabin Sketch', cursive;
+}
+nav a:link {
+	color: #FA9D0C;	
+	text-decoration: none;
+}
+nav a:visited {
+	color: #FA9D0C
+}
+nav a:hover {
+	color: #DED7C7;
+}
+a:link {
+	color: #FA9D0C;	
+	text-decoration: none;
+	display: block;
+}
+a:visited {
+	color: #6B6454;
+}
+a:hover {
+	color: #FA9D0C;
+}
+.extLink {
+    background: url(images/extlink.png) center left no-repeat;
+	padding-left: 25px;
+}
+ul.sub-menu {
+	font-size: .35em;
+	line-height: 1.25em;
+}
+
+/*********************************************/
+/*------------- End Typography --------------*/
+/*********************************************/

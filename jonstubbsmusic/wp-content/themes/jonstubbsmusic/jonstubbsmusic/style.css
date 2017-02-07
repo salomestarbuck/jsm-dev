@@ -1,0 +1,46 @@
+/*
+Theme Name:  JonStubbsMusic
+Theme URI: http://jonstubbsmusic.com/
+Description: The Jon Stubbs Music theme
+Author: Salomé Starbuck
+Version: 1.0
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+
+@import url('css/reset.css');
+@import url('css/typography.css');
+@import url('css/layout.css');
+@import url('css/forms.css');
+@import url('css/mediaQueries.css');
+
+/* Wordpress required classes, etc. */
+
+.wp-caption {
+}
+.wp-caption-text {
+}
+.sticky {
+}
+.screen-reader-text {
+}
+.gallery-caption {
+}
+.bypostauthor {
+}
+.alignright {
+}
+.alignleft {
+}
+.aligncenter {
+}
+.size-auto, 
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+	max-width: 100%;
+	height: auto;
+}

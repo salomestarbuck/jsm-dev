@@ -1,0 +1,102 @@
+/*********************************************/
+/*-------------- Form Styling ---------------*/
+/*********************************************/
+/****************** Contact ******************/
+form.contact-form label span {
+color: #000;
+}
+.contact-form div {
+	display: inline-block;
+	float: left;
+	width: 90%;
+	background-image: url(images/watercolorPaperTextureTile.jpg);
+	font-family: 'special_eliteregular';
+	font-size: .9em;
+	border: none;
+	}
+.contact-form div label {
+	float: left;
+	cursor: pointer;
+	width: 30%;
+	margin-bottom: 2%;
+	background-image: url(images/watercolorPaperTextureTile.jpg);
+	font-family: 'special_eliteregular';
+	font-size: .9em;
+}
+.contact-form.commentsblock div input, .contact-form div textarea#contact-form-comment-g8-message.textarea {
+	float: right;
+	width: 60%;
+	margin-bottom: 2%;
+	border: none;
+	border-bottom: thin solid #000;
+	background-image: url(images/watercolorPaperTextureTile.jpg);
+	font-family: 'special_eliteregular';
+	font-size: .9em;
+}
+/*input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+	box-shadow: 0 0 0px 1000px white inset;
+	}*/
+.contact-form.commentsblock div input:focus, .contact-form div textarea#contact-form-comment-g8-message.textarea:focus {
+	background:#fff;
+}
+input.pushbutton-wide {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 1.85em;
+	cursor: pointer;
+	width: 25%;
+	margin: 2% 0% 7% 75;
+	border: thin solid #000;
+	display: inline-block;
+	clear: both;
+	float: right;
+}
+input.pushbutton-wide:hover {
+	background: #FFF;
+}
+/*form div label span {
+	visibility: hidden;
+}*/
+
+/***************** Comments ******************/
+
+input#submit.submit {
+	
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 1.85em;
+	cursor: pointer;
+	width: 25%;
+	margin: 2% 0% 7% 75;
+	border: thin solid #000;
+	display: inline-block;
+	clear: both;
+	float: right;
+}
+p.logged-in-as {
+	display: none;
+}
+div#comments .comments-area {
+	
+}
+#comments {
+	
+}
+.comments-area {
+	
+}
+
+h2.comments-title {
+	
+}
+ol.comment-list {
+	
+}
+p.no-comments {
+	
+}
+h2#reply-title .comment-reply-title {
+	
+}
+/*********************************************/
+/*------------- End Form Styling ------------*/
+/*********************************************/

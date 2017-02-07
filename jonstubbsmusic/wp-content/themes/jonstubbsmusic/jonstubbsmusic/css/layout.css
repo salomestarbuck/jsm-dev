@@ -1,0 +1,245 @@
+/*********************************************/
+/*------------- Layout Base  ----------------*/
+/*********************************************/
+
+/*---------- Design Layout - Pages ----------*/
+html {
+	height: 100%;
+}
+body {
+	min-height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	background: #BCAF8F;
+}
+/*.background {
+	display: flex;
+	background-image: url('../images/960x537drainTile50.png');
+}*/
+#outerWrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 0 auto;
+	        flex: 1 0 auto;
+	width: 100%;
+	background-image: url('../images/960x537drainTile50.png');
+}
+
+/*----------------- Header ------------------*/
+header {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: 15em;
+	background-image: url('../images/piano.jpg');
+	background-repeat: repeat-x;
+	background-position: 50% 60%;
+	/*outline: 1px dashed red;*/
+}
+#header-box {
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+}
+#header-box h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 5em;
+	line-height: 1.5em;
+	font-weight: bold;
+	text-shadow: 4px 4px rgba(28, 18, 1, 0.7);
+}
+#contentWrap, #header-box, #footer-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 0 auto;
+	width: 90%;
+	max-width: 1920px;
+	/*outline: 1px dashed red;*/
+}
+#contentWrap {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	/*-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;*/
+}
+#contentWrap > * {
+	margin-top: 1.5em;
+}
+
+/*-------------- Main Section ---------------*/
+main {
+	background-image: url('../images/watercolorPaperTextureTile.jpg');
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	        flex: 0 0 100%;
+	-webkit-box-ordinal-group: 3;
+	    -ms-flex-order: 2;
+	        order: 2;
+	padding: 0 2em 1em 2em;
+	box-shadow: 2px 2px 1px rgba(61, 59, 40, 0.5);
+	/*outline: 1px dashed red;*/
+}
+
+/*------------ Sidebar ------------------*/
+.sidebar {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	        flex: 0 0 100%;
+	-webkit-box-ordinal-group: 2;
+	    -ms-flex-order: 1;
+	        order: 1;
+	/*outline: 1px dashed red;*/
+}
+
+/*-------------- Nav --------------------*/
+
+nav#menuMain {
+	background-color: rgba(107, 59, 3, 0.8);
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	        flex: 0 0 100%;
+	/*-webkit-box-ordinal-group: 2;
+	    -ms-flex-order: 1;
+	        order: 1;*/
+	/*max-width: 15em;*/
+}
+nav ul {
+	padding: 1em 0 1em 0;
+	min-width: 13em;
+}
+nav ul li {
+	display: block;
+	list-style: none;
+	text-align: left;
+	margin-left: .5em;
+	font-size: 2em;
+	line-height: 1.5em;
+}
+
+/*---------------- illustration --------------------*/
+#illustration {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	        flex: 0 0 100%;
+	-webkit-box-ordinal-group: 4;
+	    -ms-flex-order: 3;
+	        order: 3;
+	/*outline: 1px dashed red;*/
+}
+#illustration img {
+	width: 100%;
+	height: auto;
+}
+
+/*--------------- Footer --------------------*/
+footer {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	background-color: rgba(107, 59, 3, 0.8);
+	margin-top: 1.25em;
+}
+#footer-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	/*outline: 1px dashed red;*/
+}
+#footer-box p {
+	line-height: 3.5em;
+}
+#footer-inner-box {
+}
+
+/*-------------- Blog Layout ----------------*/
+.blog-background {
+	background-image: url('images/960x537drainTile50.png');
+}
+main.blog-posts {
+	background-image: url('../images/watercolorPaperTextureTile.jpg');
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	        flex: 0 0 100%;
+	-webkit-box-ordinal-group: 3;
+	    -ms-flex-order: 2;
+	        order: 2;
+	padding: 0 2em 1em 2em;
+	box-shadow: 2px 2px 1px rgba(61, 59, 40, 0.5);
+	/*outline: 1px dashed red;*/
+}
+p.logged-in-as {
+	display: none;
+}
+input#submit.submit {
+	
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 1.85em;
+	cursor: pointer;
+	width: 25%;
+	margin: 2% 0% 7% 75;
+	border: thin solid #000;
+	display: inline-block;
+	clear: both;
+	float: right;
+}
+.sidebar-blog {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	        flex: 0 0 100%;
+	-webkit-box-ordinal-group: 2;
+	    -ms-flex-order: 1;
+	        order: 1;
+	/*outline: 1px dashed red;*/
+}
+#menuBlog {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	        flex: 0 0 100%;
+	-webkit-box-ordinal-group: 2;
+	    -ms-flex-order: 1;
+	        order: 1;
+	/*max-width: 15em;*/
+	background-color: rgba(107, 59, 3, 0.8);
+}
+#menuBlog a {
+	margin-left: 1em;
+}
+#illustration-blog {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	        flex: 0 0 100%;
+	-webkit-box-ordinal-group: 4;
+	    -ms-flex-order: 3;
+	        order: 3;
+	/*outline: 1px dashed red;*/
+}
+#illustration-blog img {
+	width: 100%;
+	height: auto;
+}
+
+/*********************************************/
+/*--------------- End Layout ----------------*/
+/*********************************************/
